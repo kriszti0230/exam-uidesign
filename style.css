@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Overpass', sans-serif;
+    background-color: #f8f7f3;
+}
+
+header {
+    padding: 0 10px;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1a24fb;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    font-weight: 400;
+}
+
+header span {
+    color: #f8f7f3;
+}
+
+section {
+    display: flex;
+    gap: 100px 20px;
+    align-items: center;
+    padding-top: 60px;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    position: relative;
+    flex-direction: column;
+    width: 380px;
+    color: #1a24fb;
+    border: 1px solid #1a24fb;
+    height: 450px;
+    padding: 40px;
+    display: flex;
+    text-align: left;
+}
+
+.title {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.index {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 18px;
+    font-size: 14px;
+    color: #1a24fb;
+    background-color: transparent;
+    border: none;
+}
+
+button:hover {
+    background-color: #1a24fb;
+}
+
+button:hover span {
+    color: #f8f7f3;
+}
+
+.material-symbols-outlined {
+    font-size: 18px;
+}
